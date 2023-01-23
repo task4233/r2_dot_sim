@@ -1,0 +1,72 @@
+[
+    {
+        "name": "entry0",
+        "size": 46,
+        "imports": [
+            "reloc.__libc_start_main"
+        ]
+    },
+    {
+        "name": "sym.__do_global_dtors_aux",
+        "size": 57,
+        "imports": [
+            "sym..plt.got",
+            "sym.deregister_tm_clones"
+        ]
+    },
+    {
+        "name": "sym.show_flag",
+        "size": 274,
+        "imports": [
+            "sym.imp.time",
+            "sym.imp.difftime",
+            "sym.imp.printf",
+            "sym.imp.fopen",
+            "sym.imp.fwrite",
+            "sym.imp.fgets",
+            "sym.imp.fclose",
+            "sym.imp.__stack_chk_fail"
+        ]
+    },
+    {
+        "name": "sym.initialize",
+        "size": 136,
+        "imports": [
+            "sym.imp.time",
+            "sym.imp.localtime",
+            "sym.imp.mktime",
+            "sym.imp.__stack_chk_fail"
+        ]
+    },
+    {
+        "name": "sym.__libc_csu_init",
+        "size": 101,
+        "imports": [
+            "map._home_ma21144_work_research_playground_r2_dot_sim_sample_hello0.r_x",
+            "rbp"
+        ]
+    },
+    {
+        "name": "main",
+        "size": 402,
+        "imports": [
+            "sym.imp.sigaction",
+            "sym.imp.puts",
+            "sym.imp.__isoc99_scanf",
+            "sym.imp.printf",
+            "sym.imp.ctime",
+            "sym.imp.time",
+            "sym.imp.difftime",
+            "sym.show_flag",
+            "sym.imp.__stack_chk_fail"
+        ]
+    },
+    {
+        "name": "sym.setup",
+        "size": 66,
+        "imports": [
+            "sym.imp.alarm",
+            "sym.imp.setbuf"
+        ]
+    }
+]

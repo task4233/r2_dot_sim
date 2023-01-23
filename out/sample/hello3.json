@@ -1,0 +1,1146 @@
+[
+    {
+        "name": "entry0",
+        "size": 46,
+        "imports": [
+            "reloc.__libc_start_main"
+        ]
+    },
+    {
+        "name": "sym.__do_global_dtors_aux",
+        "size": 57,
+        "imports": [
+            "sym..plt.got",
+            "sym.deregister_tm_clones"
+        ]
+    },
+    {
+        "name": "sym.show_flag",
+        "size": 252,
+        "imports": [
+            "sym.imp.time",
+            "sym.imp.fopen",
+            "sym.imp.fgets",
+            "sym.imp.__printf_chk",
+            "sym.imp.fclose",
+            "sym.imp.difftime",
+            "sym.imp.fwrite",
+            "sym.imp.__stack_chk_fail"
+        ]
+    },
+    {
+        "name": "sym.initialize",
+        "size": 105,
+        "imports": [
+            "sym.imp.time",
+            "sym.imp.localtime",
+            "sym.imp.mktime",
+            "sym.imp.__stack_chk_fail"
+        ]
+    },
+    {
+        "name": "sym.__libc_csu_init",
+        "size": 101,
+        "imports": [
+            "map._home_ma21144_work_research_playground_r2_dot_sim_sample_hello3.r_x",
+            "rbp"
+        ]
+    },
+    {
+        "name": "main",
+        "size": 351,
+        "imports": [
+            "sym.imp.sigaction",
+            "sym.imp.puts",
+            "sym.imp.__isoc99_scanf",
+            "sym.imp.__printf_chk",
+            "sym.imp.ctime",
+            "sym.imp.time",
+            "sym.imp.difftime",
+            "sym.show_flag",
+            "sym.imp.__stack_chk_fail"
+        ]
+    },
+    {
+        "name": "sym.setup",
+        "size": 52,
+        "imports": [
+            "sym.imp.alarm",
+            "sym.imp.setbuf"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be274a",
+        "size": 1189,
+        "imports": [
+            "fcn.7f7036c03fc0",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290",
+            "loc.7f7036c04390"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be2df4",
+        "size": 2020,
+        "imports": [
+            "fcn.7f7036bee0b0",
+            "fcn.7f7036bfd700",
+            "unk.0x7f7036be2500",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036c042d0",
+            "fcn.7f7036be20f0",
+            "loc.7f7036c04390",
+            "fcn.7f7036c032b0",
+            "fcn.7f7036bf3af0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be7990",
+        "size": 695,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c00050",
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be7dc0",
+        "size": 5348,
+        "imports": [
+            "fcn.7f7036bf31f0",
+            "fcn.7f7036bee210",
+            "unk.0x7f7036bf31e0",
+            "fcn.7f7036bffd20",
+            "fcn.7f7036bffe20",
+            "fcn.7f7036be2080",
+            "unk.0x7f7036be7cd0",
+            "fcn.7f7036bf3b90",
+            "unk.0x7f7036bee170",
+            "fcn.7f7036c00160",
+            "fcn.7f7036c00230",
+            "fcn.7f7036c04580",
+            "fcn.7f7036c00050",
+            "unk.0x7f7036be7c50",
+            "fcn.7f7036bee0b0",
+            "loc.7f7036c04390",
+            "unk.0x7f7036bf5360",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036be20a0",
+            "unk.0x7f7036c0ff90",
+            "fcn.7f7036c00200"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be9380",
+        "size": 1725,
+        "imports": [
+            "fcn.7f7036bfff30",
+            "fcn.7f7036c00020",
+            "fcn.7f7036c00050",
+            "unk.0x7f7036be7c50",
+            "fcn.7f7036bffe20",
+            "fcn.7f7036be2080",
+            "fcn.7f7036be20d0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be9a40",
+        "size": 1781,
+        "imports": [
+            "fcn.7f7036c04380",
+            "fcn.7f7036be9380",
+            "fcn.7f7036be20a0",
+            "loc.7f7036c04390",
+            "fcn.7f7036bffe20",
+            "fcn.7f7036bffd20",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bffcd0",
+            "fcn.7f7036bf3a40",
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bee9f4",
+        "size": 6741,
+        "imports": [
+            "fcn.7f7036bed0d0",
+            "fcn.7f7036bf3af0",
+            "unk.0x7f7036bee920",
+            "fcn.7f7036c00230",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036be20c0",
+            "fcn.7f7036c00290",
+            "fcn.7f7036bf3b90",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf1784",
+        "size": 2812,
+        "imports": [
+            "unk.0x7f7036bfb5e0",
+            "fcn.7f7036bfafe0",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c04380",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bed0d0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf2d64",
+        "size": 1153,
+        "imports": [
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036bfa290",
+            "rbp",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf3290",
+        "size": 1622,
+        "imports": [
+            "fcn.7f7036bfe790",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036c002e0",
+            "fcn.7f7036c04580"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf45e4",
+        "size": 2699,
+        "imports": [
+            "fcn.7f7036bffcc0",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036c041e0",
+            "fcn.7f7036bfff30",
+            "fcn.7f7036bffd20",
+            "fcn.7f7036c00160",
+            "fcn.7f7036bffe20",
+            "fcn.7f7036be20c0",
+            "fcn.7f7036bffbf0",
+            "fcn.7f7036bfe650",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00200",
+            "fcn.7f7036c04580",
+            "fcn.7f7036bffdc0",
+            "fcn.7f7036c00080",
+            "fcn.7f7036c00290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfa294",
+        "size": 776,
+        "imports": [
+            "fcn.7f7036c04580",
+            "loc.7f7036c04390"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfa684",
+        "size": 2316,
+        "imports": [
+            "fcn.7f7036c00600",
+            "unk.0x7f7036bfb5e0",
+            "fcn.7f7036bfa5a0",
+            "fcn.7f7036c03e20",
+            "loc.7f7036c04390",
+            "fcn.7f7036c005c0",
+            "fcn.7f7036bf38f0",
+            "fcn.7f7036c00200",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfbddf",
+        "size": 18,
+        "imports": [
+            "fcn.7f7036bf5ed0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be2170",
+        "size": 70,
+        "imports": [
+            "fcn.7f7036bf6560"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf6560",
+        "size": 1714,
+        "imports": [
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036be2090",
+            "unk.0x7f7036bfaf50",
+            "fcn.7f7036bf31f0",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bf8e20",
+            "fcn.7f7036be20b0",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bf3a40"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be21c0",
+        "size": 116,
+        "imports": [
+            "fcn.7f7036bed0d0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bed0d0",
+        "size": 4059,
+        "imports": [
+            "unk.0x7f7036bec4c0",
+            "fcn.7f7036bf9db0",
+            "unk.0x7f7036bfeb30",
+            "unk.0x7f7036bfa260",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bf3a40",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036bed0d0",
+            "fcn.7f7036be20a0",
+            "unk.0x7f7036bf6060",
+            "loc.7f7036c04390",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be22c0",
+        "size": 47,
+        "imports": [
+            "fcn.7f7036beb460"
+        ]
+    },
+    {
+        "name": "fcn.7f7036beb460",
+        "size": 3782,
+        "imports": [
+            "fcn.7f7036bf3b90",
+            "fcn.7f7036c00600",
+            "unk.0x7f7036be7cd0",
+            "fcn.7f7036c03bf0",
+            "unk.0x7f7036bea9d0",
+            "unk.0x7f7036bea140",
+            "fcn.7f7036be7dc0",
+            "fcn.7f7036c005c0",
+            "fcn.7f7036bee210",
+            "unk.0x7f7036bee170",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036be9a40",
+            "unk.0x7f7036beae80",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bfa680",
+            "fcn.7f7036be9380",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036be2080",
+            "fcn.7f7036bfe790",
+            "unk.0x7f7036be92b0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be2db0",
+        "size": 59,
+        "imports": [
+            "fcn.7f7036bf4550"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be35e0",
+        "size": 16608,
+        "imports": [
+            "fcn.7f7036bfe3c0",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036bee210",
+            "unk.0x7f7036bee170",
+            "fcn.7f7036c00600",
+            "fcn.7f7036bee0b0",
+            "fcn.7f7036be20a0",
+            "loc.7f7036c04390",
+            "unk.0x7f7036c0e800",
+            "fcn.7f7036bfe1e0",
+            "fcn.7f7036beb050",
+            "fcn.7f7036bf31f0",
+            "unk.0x7f7036bf5460",
+            "unk.0x7f7036bf31e0",
+            "fcn.7f7036bffdf0",
+            "fcn.7f7036bf0520",
+            "unk.0x7f7036bf5360",
+            "fcn.7f7036bfe410",
+            "fcn.7f7036bfed90",
+            "fcn.7f7036bf3b90",
+            "fcn.7f7036bfc510",
+            "unk.0x7f7036bee9f0",
+            "fcn.7f7036bf5dd0",
+            "fcn.7f7036bfede0",
+            "fcn.7f7036bee8b0",
+            "fcn.7f7036bf5780",
+            "fcn.7f7036bf45e0",
+            "fcn.7f7036bfe020",
+            "unk.0x7f7036bfaf50",
+            "fcn.7f7036c002e0",
+            "fcn.7f7036bfff30",
+            "unk.0x7f7036bfe950",
+            "fcn.7f7036beb460",
+            "fcn.7f7036be20f0",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bfe790",
+            "unk.0x7f7036bf6ae0",
+            "fcn.7f7036bed0d0",
+            "unk.0x7f7036be2bf0",
+            "fcn.7f7036c042d0",
+            "fcn.7f7036c032b0",
+            "fcn.7f7036bf8ea0",
+            "fcn.7f7036be2080",
+            "unk.0x7f7036be2d80",
+            "fcn.7f7036c035e0",
+            "unk.0x7f7036be3410",
+            "fcn.7f7036bf38f0",
+            "fcn.7f7036c00200"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bea7a0",
+        "size": 165,
+        "imports": [
+            "fcn.7f7036c03bf0",
+            "fcn.7f7036be76c0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036be76c0",
+        "size": 32,
+        "imports": [
+            "fcn.7f7036c03e20"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bea850",
+        "size": 381,
+        "imports": [
+            "fcn.7f7036be76c0",
+            "fcn.7f7036c041e0",
+            "unk.0x7f7036be7760"
+        ]
+    },
+    {
+        "name": "fcn.7f7036beb050",
+        "size": 1027,
+        "imports": [
+            "fcn.7f7036bf1780",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c04580",
+            "unk.0x7f7036beae80",
+            "fcn.7f7036c03e20",
+            "loc.7f7036c04390",
+            "unk.0x7f7036beab70",
+            "fcn.7f7036be2080",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036be20e0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bee0b0",
+        "size": 341,
+        "imports": [
+            "fcn.7f7036bfe790",
+            "fcn.7f7036c0ff68"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe790",
+        "size": 83,
+        "imports": [
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bee210",
+        "size": 1120,
+        "imports": [
+            "fcn.7f7036c03e20",
+            "fcn.7f7036be20c0",
+            "loc.7f7036c04390",
+            "fcn.7f7036be20d0",
+            "fcn.7f7036bff030",
+            "fcn.7f7036c04380",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036be2080",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bee770",
+        "size": 309,
+        "imports": [
+            "fcn.7f7036bf5aa0",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036c04380"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bee8b0",
+        "size": 317,
+        "imports": [
+            "fcn.7f7036c00230",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036c041e0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf04e0",
+        "size": 59,
+        "imports": [
+            "fcn.7f7036beb460"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf0520",
+        "size": 4704,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "loc.7f7036c04390",
+            "fcn.7f7036bea7a0",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036bea850",
+            "fcn.7f7036be2090",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bf5f00",
+            "fcn.7f7036be2080",
+            "fcn.7f7036bfa290",
+            "unk.0x7f7036bf6060",
+            "fcn.7f7036c000b0",
+            "fcn.7f7036bfe790",
+            "unk.0x7f7036bf0450",
+            "unk.0x7f7036bfa260",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036be20b0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf2c20",
+        "size": 314,
+        "imports": [
+            "unk.0x7f7036bf2b00",
+            "rbp",
+            "fcn.7f7036bf3990"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf38f0",
+        "size": 146,
+        "imports": [
+            "fcn.7f7036bfff30",
+            "fcn.7f7036bffd20",
+            "fcn.7f7036bffe20",
+            "fcn.7f7036c00160"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf3a40",
+        "size": 169,
+        "imports": [
+            "fcn.7f7036bf3290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf3b90",
+        "size": 105,
+        "imports": [
+            "fcn.7f7036c00600"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf3dd0",
+        "size": 1909,
+        "imports": [
+            "fcn.7f7036bf3b90",
+            "fcn.7f7036bf9db0",
+            "unk.0x7f7036bfeb30",
+            "unk.0x7f7036bfa260",
+            "fcn.7f7036c00600",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036be20c0",
+            "fcn.7f7036be20b0",
+            "fcn.7f7036bf9cb0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf4550",
+        "size": 129,
+        "imports": [
+            "fcn.7f7036bf3dd0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf54d0",
+        "size": 473,
+        "imports": [
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf56b0",
+        "size": 203,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036be20c0",
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5780",
+        "size": 666,
+        "imports": [
+            "fcn.7f7036c04380",
+            "fcn.7f7036c04580",
+            "fcn.7f7036bfe790",
+            "unk.0x7f7036bf50a0",
+            "fcn.7f7036be20c0",
+            "fcn.7f7036bf56b0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5a20",
+        "size": 127,
+        "imports": [
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5aa0",
+        "size": 528,
+        "imports": [
+            "unk.0x7f7036bf50a0",
+            "fcn.7f7036be2080",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5cb0",
+        "size": 67,
+        "imports": [
+            "fcn.7f7036bf5aa0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5150",
+        "size": 885,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c04380",
+            "fcn.7f7036c04580",
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036bfe790",
+            "unk.0x7f7036bf5070"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5dd0",
+        "size": 256,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036be20e0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf5f00",
+        "size": 570,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036c04380",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036be2080",
+            "unk.0x7f7036c0ffe8"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf6140",
+        "size": 76,
+        "imports": [
+            "fcn.7f7036c00230"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf6490",
+        "size": 208,
+        "imports": [
+            "fcn.7f7036bffb20",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf6c20",
+        "size": 3429,
+        "imports": [
+            "fcn.7f7036c03bf0",
+            "fcn.7f7036bffb20",
+            "fcn.7f7036bf31f0",
+            "fcn.7f7036beb460",
+            "fcn.7f7036bf0520",
+            "unk.0x7f7036bf31e0",
+            "fcn.7f7036bfc500",
+            "fcn.7f7036bfa290",
+            "unk.0x7f7036bee9f0",
+            "loc.7f7036c04390",
+            "unk.0x7f7036bf6060",
+            "fcn.7f7036be2090",
+            "fcn.7f7036bf3dd0",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bf5dd0",
+            "unk.0x7f7036bf6ae0",
+            "fcn.7f7036bf45e0",
+            "fcn.7f7036bf3990",
+            "unk.0x7f7036bf6310",
+            "unk.0x7f7036bf6190",
+            "fcn.7f7036bf5aa0",
+            "unk.0x7f7036c0ffe0",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290",
+            "rbp"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf8ea0",
+        "size": 1351,
+        "imports": [
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036bf7ac0",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bf2280",
+            "fcn.7f7036bf2930"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf7ac0",
+        "size": 4958,
+        "imports": [
+            "fcn.7f7036c04580",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bfa290",
+            "fcn.7f7036be2090",
+            "unk.0x7f7036bf6060",
+            "fcn.7f7036bf31f0",
+            "unk.0x7f7036bf31e0",
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036bfbb60",
+            "fcn.7f7036be2080",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036bf3990",
+            "unk.0x7f7036bf7990",
+            "unk.0x7f7036c0ffe8",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf3990",
+        "size": 169,
+        "imports": [
+            "fcn.7f7036bf3290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf2280",
+        "size": 1712,
+        "imports": [
+            "unk.0x7f7036bf4e10",
+            "fcn.7f7036bed0d0",
+            "unk.0x7f7036bf20c0",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf93f0",
+        "size": 1145,
+        "imports": [
+            "fcn.7f7036bf2280",
+            "fcn.7f7036bf2930"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf9870",
+        "size": 509,
+        "imports": [
+            "fcn.7f7036bf2280",
+            "fcn.7f7036bf2930"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf9a70",
+        "size": 128,
+        "imports": [
+            "unk.0x7f7036bf20c0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf9af0",
+        "size": 206,
+        "imports": [
+            "unk.0x7f7036bf20c0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf9bc0",
+        "size": 190,
+        "imports": [
+            "unk.0x7f7036bf20c0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf9cb0",
+        "size": 248,
+        "imports": [
+            "fcn.7f7036c03e20",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c04380",
+            "loc.7f7036c04390"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf9db0",
+        "size": 1234,
+        "imports": [
+            "fcn.7f7036c03e20",
+            "fcn.7f7036be20a0",
+            "loc.7f7036c04390",
+            "fcn.7f7036c04580",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290",
+            "fcn.7f7036c04380",
+            "unk.0x7f7036bf9c80",
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfb050",
+        "size": 1533,
+        "imports": [
+            "fcn.7f7036bf3c50",
+            "unk.0x7f7036bfaf90",
+            "fcn.7f7036bfef90",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfb650",
+        "size": 772,
+        "imports": [
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036be20c0",
+            "fcn.7f7036bf3c00",
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfb960",
+        "size": 434,
+        "imports": [
+            "fcn.7f7036c0ff68",
+            "fcn.7f7036c0ff70",
+            "fcn.7f7036bed0d0",
+            "fcn.7f7036bfb650",
+            "fcn.7f7036bee670"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bee670",
+        "size": 241,
+        "imports": [
+            "unk.0x7f7036c0ffe0",
+            "fcn.7f7036bf5aa0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfbb20",
+        "size": 50,
+        "imports": [
+            "fcn.7f7036c0ff68"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfbb60",
+        "size": 125,
+        "imports": [
+            "fcn.7f7036c00200",
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfbc10",
+        "size": 152,
+        "imports": [
+            "fcn.7f7036bf5d00"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfbcb0",
+        "size": 115,
+        "imports": [
+            "fcn.7f7036bfb960"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfbd30",
+        "size": 117,
+        "imports": [
+            "fcn.7f7036bfbb20"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfc500",
+        "size": 1787,
+        "imports": [
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036c00230"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfd700",
+        "size": 2327,
+        "imports": [
+            "fcn.7f7036bfb050",
+            "unk.0x7f7036bfef40",
+            "unk.0x7f7036bfd360",
+            "unk.0x7f7036bfb5e0",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036bfef90",
+            "fcn.7f7036bff7c0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe030",
+        "size": 428,
+        "imports": [
+            "fcn.7f7036bf3af0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe1e0",
+        "size": 476,
+        "imports": [
+            "fcn.7f7036c00260",
+            "fcn.7f7036bfff30",
+            "fcn.7f7036c00020",
+            "fcn.7f7036bffe20"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe4a0",
+        "size": 281,
+        "imports": [
+            "fcn.7f7036c00160"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe600",
+        "size": 60,
+        "imports": [
+            "fcn.7f7036c04580"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe740",
+        "size": 80,
+        "imports": [
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe7f0",
+        "size": 249,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bfe650",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bf3af0",
+        "size": 155,
+        "imports": [
+            "fcn.7f7036bf3290"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfe8f0",
+        "size": 397,
+        "imports": [
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bf3af0",
+            "fcn.7f7036c00290",
+            "fcn.7f7036bfe650"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfea80",
+        "size": 691,
+        "imports": [
+            "fcn.7f7036c00350",
+            "unk.0x7f7036bfe9d0",
+            "fcn.7f7036bf9cb0",
+            "fcn.7f7036bf3990",
+            "fcn.7f7036be20b0",
+            "fcn.7f7036be20e0",
+            "fcn.7f7036c002f0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfed40",
+        "size": 69,
+        "imports": [
+            "fcn.7f7036be2090"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfede0",
+        "size": 432,
+        "imports": [
+            "fcn.7f7036bf3990",
+            "unk.0x7f7036bee920",
+            "fcn.7f7036bfe790"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bfef90",
+        "size": 152,
+        "imports": [
+            "unk.0x7f7036bfef40"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff030",
+        "size": 1146,
+        "imports": [
+            "fcn.7f7036bffd70",
+            "fcn.7f7036bfffb0",
+            "fcn.7f7036bffd20",
+            "fcn.7f7036bff950",
+            "fcn.7f7036bffa40",
+            "fcn.7f7036bff9b0",
+            "loc.7f7036c04390",
+            "fcn.7f7036bff980",
+            "fcn.7f7036bff770",
+            "fcn.7f7036c03e20",
+            "fcn.7f7036bffe20",
+            "fcn.7f7036bfe790",
+            "fcn.7f7036be20d0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff4b0",
+        "size": 436,
+        "imports": [
+            "fcn.7f7036bfe790",
+            "fcn.7f7036bfff30",
+            "fcn.7f7036bffd20",
+            "fcn.7f7036be20a0",
+            "fcn.7f7036bffe20"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff670",
+        "size": 243,
+        "imports": [
+            "fcn.7f7036be20a0",
+            "fcn.7f7036bffe50",
+            "fcn.7f7036bffe20"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff7c0",
+        "size": 393,
+        "imports": [
+            "fcn.7f7036bffe50",
+            "fcn.7f7036bfff30",
+            "fcn.7f7036bffd20"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff950",
+        "size": 41,
+        "imports": [
+            "fcn.7f7036be2080"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff980",
+        "size": 44,
+        "imports": [
+            "fcn.7f7036bffdc0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bff9b0",
+        "size": 144,
+        "imports": [
+            "fcn.7f7036bffae0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bffa40",
+        "size": 158,
+        "imports": [
+            "fcn.7f7036bffd20",
+            "fcn.7f7036bffe50",
+            "fcn.7f7036bff670"
+        ]
+    },
+    {
+        "name": "fcn.7f7036bffbf0",
+        "size": 208,
+        "imports": [
+            "fcn.7f7036c00590",
+            "fcn.7f7036bffcc0",
+            "fcn.7f7036c04660"
+        ]
+    },
+    {
+        "name": "fcn.7f7036c000b0",
+        "size": 170,
+        "imports": [
+            "fcn.7f7036be2080",
+            "fcn.7f7036be20a0"
+        ]
+    },
+    {
+        "name": "fcn.7f7036c005c0",
+        "size": 64,
+        "imports": [
+            "fcn.7f7036c03e20",
+            "fcn.7f7036be20a0"
+        ]
+    }
+]

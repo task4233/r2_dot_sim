@@ -1,0 +1,27 @@
+digraph code {
+rankdir=LR;
+outputorder=edgesfirst;
+graph [bgcolor=azure fontname="Courier" splines="curved"];
+node [penwidth=4 fillcolor=white style=filled fontname="Courier Bold" fontsize=14 shape=box];
+edge [arrowhead="normal" style=bold weight=2];
+  "0x56141c000540" [label="entry0" URL="entry0/0x56141c000540"];
+  "0x56141c000540" -> "0x56141c200fe0" [color="#61afef" URL="reloc.__libc_start_main/0x56141c200fe0"];
+  "0x56141c200fe0" [label="reloc.__libc_start_main" URL="reloc.__libc_start_main/0x56141c200fe0"];
+  "0x56141c000600" [label="sym.__do_global_dtors_aux" URL="sym.__do_global_dtors_aux/0x56141c000600"];
+  "0x56141c000600" -> "0x56141c000530" [color="#61afef" URL="sym.imp.__cxa_finalize/0x56141c000530"];
+  "0x56141c000530" [label="sym.imp.__cxa_finalize" URL="sym.imp.__cxa_finalize/0x56141c000530"];
+  "0x56141c000600" -> "0x56141c000570" [color="#61afef" URL="sym.deregister_tm_clones/0x56141c000570"];
+  "0x56141c000570" [label="sym.deregister_tm_clones" URL="sym.deregister_tm_clones/0x56141c000570"];
+  "0x56141c00064a" [label="sym.show_hello" URL="sym.show_hello/0x56141c00064a"];
+  "0x56141c00064a" -> "0x56141c000520" [color="#61afef" URL="sym.imp.printf/0x56141c000520"];
+  "0x56141c000520" [label="sym.imp.printf" URL="sym.imp.printf/0x56141c000520"];
+  "0x56141c000680" [label="sym.__libc_csu_init" URL="sym.__libc_csu_init/0x56141c000680"];
+  "0x56141c000680" -> "0x56141c0004f0" [color="#61afef" URL="sym._init/0x56141c0004f0"];
+  "0x56141c0004f0" [label="sym._init" URL="sym._init/0x56141c0004f0"];
+  "0x56141c000680" -> "0x00000000" [color="#61afef" URL="rbp/0x00000000"];
+  "0x00000000" [label="rbp" URL="rbp/0x00000000"];
+  "0x56141c000666" [label="main" URL="main/0x56141c000666"];
+  "0x56141c000666" -> "0x56141c00064a" [color="#61afef" URL="sym.show_hello/0x56141c00064a"];
+  "0x56141c00064a" [label="sym.show_hello" URL="sym.show_hello/0x56141c00064a"];
+}
+hello
